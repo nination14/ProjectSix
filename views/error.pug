@@ -1,0 +1,15 @@
+extends layout.pug 
+
+block content   
+    h1 #{error.message}
+    h2 #{error.status}
+    pre #{error.stack}
+
+//-X-tra Credit
+//-When app is directed at a non-existent route, like /error/error, the app displays a user friendly error page in the browser that details:message, status, stack.
+//-I first created a template in views folder an called it error.pug 
+//-I'll extend the layout and create a content block.
+//-h1 and set it to the error messages message property.
+//-h2 is set to the HTTP status
+//-pre is set to an error object that has a stack property block
+

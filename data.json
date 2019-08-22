@@ -1,0 +1,50 @@
+{
+    "projects": [
+        {
+            "id": 1, 
+            "project_name": "A Random Quote Generator",
+            "description": "I used basic JavaScript syntax and data structures to create a program that displays a random quote each time the user clicks button.",
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "live_link": "https://nination14.github.io/ProjectOne/",
+            "github_link": "https://github.com/nination14/ProjectOne",
+            "image_urls": ["/static/images/Project1Pic1.JPG", "/static/images/Project1Pic2.PNG"]
+
+        },
+        {
+            "id": 2,
+            "project_name": "Pagination and Content Filtering",
+            "description": "I enhance the usability of a web page that contained a long list by employing JavaScript to dynamically divided the list into pages.",
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "live_link": "https://nination14.github.io/ProjectTwo/",
+            "github_link": "https://github.com/nination14/ProjectTwo",
+            "image_urls": ["/static/images/Project2Pic2.PNG", "/static/images/Project2Pic2.PNG"]
+        },
+        {
+            "id": 3,
+            "project_name": "Interactive Form",
+            "description": "I created a form to collect information from users, I used my skills to enhance a form so that it’s engaging, interactive, and easy to use.",
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "live_link": "https://nination14.github.io/ProjectThree/",
+            "github_link": "https://github.com/nination14/ProjectThree",
+            "image_urls": ["/static/images/Project3Pic1.PNG", "/static/images/Project3Pic2.PNG"]
+        },
+        {
+            "id": 4,
+            "project_name": "Game Show App",
+            "description": "I use JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase, which a player tries to guess, by clicking letters on an onscreen keyboard.",
+            "technologies": ["JavaScript", "HTML", "CSS", "OOP"],
+            "live_link": "https://nination14.github.io/ProjectFour/",
+            "github_link": "https://github.com/nination14/ProjectFour",
+            "image_urls": ["/static/images/Project4Pic1.PNG","/static/images/Project4Pic2.PNG"]
+        },
+        {
+            "id": 5,
+            "project_name": "Employee Directory",
+            "description" : "I practice my JavaScript skills to create an employee directory by communicating with a third-party API (Application Programming Interface).",
+            "technologies": ["JavaScript", "HTML", "CSS", "API"],
+            "live_link": "https://nination14.github.io/ProjectFive/",
+            "github_link": "https://github.com/nination14/ProjectFive",
+            "image_urls": ["/static/images/Project5Pic1.PNG", "/static/images/Project5Pic2.PNG"]
+        }
+    ]
+}

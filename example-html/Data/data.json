@@ -1,0 +1,54 @@
+{ 
+    "projects": [
+        {
+            "id":0,
+            "project_name":"A Random Quote Generator",
+            "description":"Created a random quote generator that displays a quote and background color at random, and on a timer.", 
+            "technologies":["HTML", "JavaScript", "CSS"],
+            "live_link":"https://justicetrent.github.io/project-unit-1/",
+            "github_link":"https://github.com/justicetrent/project-unit-1",
+            "image_url_main":"./static/images/landing-page-project-1.PNG",
+            "image_urls":["../static/images/project-1-pic-for-project-6.PNG", "../static/images/project-1-pic-for-project-6-2.PNG"]
+        },
+        {
+            "id":1,
+            "project_name":"List Pagination and Filtering",
+            "description":"Took a list of 54 students, and divided them up between 6 different pages, each page was a link to the next list name on the list of students.", 
+            "technologies":["HTML", "Vanilla JavaScript"],
+            "live_link":"https://justicetrent.github.io/unit-2-project-2/",
+            "github_link":"https://github.com/justicetrent/unit-2-project-2",
+            "image_url_main":"./static/images/project-2-landing-page-for-project-6.PNG",
+            "image_urls":["../static/images/project-2-pic-for-project-6-1.PNG", "../static/images/project-2-pic-for-project-6-1.PNG"]
+        },
+        {
+            "id":2,
+            "project_name":"Interactive Form",
+            "description":"Created a form for a user to fill out to place an order for a t-shirts, and activities. I added validations to make sure that all of the information that the user submitted was accurate.", 
+            "technologies":["HTML", "JavaScript", "JQuery"],
+            "live_link":"https://justicetrent.github.io/project-3-unit-3/",
+            "github_link":"https://github.com/justicetrent/project-3-unit-3",
+            "image_url_main":"./static/images/project-3-landing-page-for-project-6.PNG",
+            "image_urls":["../static/images/project-3-picture-for-project-6-1.PNG", "../static/images/project-3-pic-for-project-6-2.PNG"]
+        },
+        {
+            "id":3,
+            "project_name":"OOP Game Show App",
+            "description":"Created a Object Oriented Programing game that users guess the letters to the name of a song. If the letters selected were correct the letter will appear in a field. If not, a heart will be taken away. After the user loses 5 hearts the game is over.", 
+            "technologies":["HTML", "JavaScript", "JQuery", "CSS"],
+            "live_link":"https://justicetrent.github.io/unit-4-project-4/",
+            "github_link":"https://github.com/justicetrent/unit-4-project-4",
+            "image_url_main":"./static/images/project-4-landing-page-project-6.PNG",
+            "image_urls":["../static/images/project-4-pic-for-project-6-1.PNG", "../static/images/project-4-pic-for-project-6-2.PNG"]
+        },
+        {
+            "id":4,
+            "project_name":"Public API Requests",
+            "description":"Accessed a employee directory that I fetched from an external API. Created a modal that displayed all of the employee information in detail.", 
+            "technologies":["HTML", "JavaScript","Fetch API", "JQuery", "CSS"],
+            "live_link":"https://justicetrent.github.io/unit-5-project-5/",
+            "github_link":"https://github.com/justicetrent/unit-5-project-5",
+            "image_url_main":"./static/images/project-5-landing-page-project-6.PNG",
+            "image_urls":["../static/images/project-5-pic-for-project-6-1.PNG", "../static/images/project-5-pic-for-project-6-2.PNG"]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+extends layout.pug
+
+block content 
+  article.grid-container.portfolio-intro
+    div
+
+      h1 Hey,There! Take A Look Inside My Portfolio! 
+
+      p.lead.text-light
+        | This Portfolio exhibits the coding projects I have completed thus far.
+        | I've worked really hard and placed a tremendous amount of time and effort
+        | into completing these projects.
+        | I hope you enjoy!
+        
+  article.grid-container.portfolio-index
+    .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
+      each project in projects
+        .cell
+          a(href=`project/${project.id}`)
+            img.thumbnail(src=project.image_urls[0])
+            h5= project.project_name

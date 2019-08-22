@@ -1,14 +1,17 @@
 {
   "name": "ProjectSix",
   "version": "1.0.0",
-  "description": "",
+  "description": "Static Node.js and Express Site",
   "main": "app.js",
   "scripts": {
-    "start": "node node_modules/nodemon/bin/nodemon.js --inspect app.js",
+    "start": "npx nodemon --inspect app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "express",
+    "pug"
+  ],
+  "author": "Ahirina Rivera",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
