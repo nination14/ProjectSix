@@ -1,7 +1,10 @@
 
 h1,h2,h3,h4,h5,p{
   font-family: 'Merriweather', serif;
+  color: #eaeaea;
+
 }
+
 
   h5{
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -15,11 +18,12 @@ h1,h2,h3,h4,h5,p{
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
     font-weight: 600;
+    color: #eeeeee;
   }
 
   p{
     font-size: 15px;
-    color: #666;
+    color: rgb(255, 255, 255);
   }
 
 .round{
@@ -27,7 +31,7 @@ h1,h2,h3,h4,h5,p{
 }
 
 .text-light{
-  color: #666;
+  color: #eaeaea;
 }
 
 .button{
@@ -39,11 +43,11 @@ h1,h2,h3,h4,h5,p{
 }
 
 a{
-  color: rgb(155, 155, 155);
+  color: #eaeaea;
 }
 
 a:hover{
-  color: rgb(17, 17, 17);
+  color: rgb(141, 240, 247, 0.774);
 }
 
 .image{
@@ -63,6 +67,10 @@ a:hover{
   box-shadow: none !important;
 }
 
+.portfolio-me .thumbnail:hover{
+  background:rgba(238, 210, 216, 0.589);
+    border: 5px solid rgba(50, 50, 50, 0.9);
+}
   .portfolio-me p{
     font-size: 14px;
     color: #999;
@@ -115,9 +123,14 @@ a:hover{
   .portfolio-index .thumbnail{
     margin-bottom: 5px;
   }
+  
+  .portfolio-index .thumbnail:hover {
+    background:rgba(238, 210, 216, 0.589);
+    border: 5px solid rgba(50, 50, 50, 0.9);
+}
 
   .portfolio-index a{
-    color: #222;
+    color: #eeeeee;
   }
 
   .portfolio-index .cell{
@@ -142,7 +155,7 @@ a:hover{
 
 .portfolio-project li{
   font-size: 13px;
-  color: #444;
+  color: #eeeeee;
 }
 
 .portfolio-bio{
@@ -150,6 +163,6 @@ a:hover{
 }
 
 body {
-  background-image: url('https://cdn.pixabay.com/photo/2017/07/13/13/28/paper-2500380_960_720.jpg');
+  background-image: url('https://cdn.pixabay.com/photo/2016/11/29/12/22/abstract-1869447_1280.jpg');
   background-size: cover;
 }

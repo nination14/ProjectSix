@@ -23,7 +23,7 @@ app.use('/static', express.static('public')); //Use a "static" route and "expres
 app.get('/', (req, res) => { //To indicate the site's root route we use slash as our 1st parameter aka location parameter
   // console.log ('in app');
   // console.log (projects);
-  res.render('index',  { projects: projects } ); //The object projects is what is passing to the template and naming it projects
+  res.render('index',  { projects } ); //The object projects is what is passing to the template and naming it projects
 }); // 2nd parameter is an anonymous callback function and take 2 parameters a request object & responce object 
 
 app.get('/about', (req, res) => {
