@@ -62,7 +62,8 @@ a:hover{
 
 .portfolio-me{
   padding: 20px;
-  background: #121213;
+  background-image: url('https://cdn.pixabay.com/photo/2014/08/12/20/40/moon-416973_1280.jpg');
+  background-size: cover;
   color: #fff;
   box-shadow: none !important;
 }
@@ -163,6 +164,6 @@ a:hover{
 }
 
 body {
-  background-image: url('https://cdn.pixabay.com/photo/2016/11/29/12/22/abstract-1869447_1280.jpg');
+  background-image: url('https://cdn.pixabay.com/photo/2016/01/19/17/29/earth-1149733_1280.jpg');
   background-size: cover;
 }
